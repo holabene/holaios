@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F0A67D7208A1BB70083A52E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A67D6208A1BB70083A52E /* AppDelegate.swift */; };
+		8F0A67D9208A1BB70083A52E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A67D8208A1BB70083A52E /* ViewController.swift */; };
+		8F0A67DC208A1BB70083A52E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F0A67DA208A1BB70083A52E /* Main.storyboard */; };
+		8F0A67DE208A1BB80083A52E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F0A67DD208A1BB80083A52E /* Assets.xcassets */; };
+		8F0A67E1208A1BB80083A52E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F0A67DF208A1BB80083A52E /* LaunchScreen.storyboard */; };
+		8F0A67EC208A1BB80083A52E /* holaiosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A67EB208A1BB80083A52E /* holaiosTests.swift */; };
+		8F0A67F7208A1BB80083A52E /* holaiosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A67F6208A1BB80083A52E /* holaiosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F0A67E8208A1BB80083A52E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F0A67CB208A1BB70083A52E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F0A67D2208A1BB70083A52E;
+			remoteInfo = holaios;
+		};
+		8F0A67F3208A1BB80083A52E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F0A67CB208A1BB70083A52E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F0A67D2208A1BB70083A52E;
+			remoteInfo = holaios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F0A67D3208A1BB70083A52E /* holaios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = holaios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F0A67D6208A1BB70083A52E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8F0A67D8208A1BB70083A52E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8F0A67DB208A1BB70083A52E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F0A67DD208A1BB80083A52E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F0A67E0208A1BB80083A52E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F0A67E2208A1BB80083A52E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F0A67E7208A1BB80083A52E /* holaiosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = holaiosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F0A67EB208A1BB80083A52E /* holaiosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = holaiosTests.swift; sourceTree = "<group>"; };
+		8F0A67ED208A1BB80083A52E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F0A67F2208A1BB80083A52E /* holaiosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = holaiosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F0A67F6208A1BB80083A52E /* holaiosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = holaiosUITests.swift; sourceTree = "<group>"; };
+		8F0A67F8208A1BB80083A52E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F0A67D0208A1BB70083A52E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0A67E4208A1BB80083A52E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0A67EF208A1BB80083A52E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F0A67CA208A1BB70083A52E = {
+			isa = PBXGroup;
+			children = (
+				8F0A67D5208A1BB70083A52E /* holaios */,
+				8F0A67EA208A1BB80083A52E /* holaiosTests */,
+				8F0A67F5208A1BB80083A52E /* holaiosUITests */,
+				8F0A67D4208A1BB70083A52E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F0A67D4208A1BB70083A52E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F0A67D3208A1BB70083A52E /* holaios.app */,
+				8F0A67E7208A1BB80083A52E /* holaiosTests.xctest */,
+				8F0A67F2208A1BB80083A52E /* holaiosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F0A67D5208A1BB70083A52E /* holaios */ = {
+			isa = PBXGroup;
+			children = (
+				8F0A67D6208A1BB70083A52E /* AppDelegate.swift */,
+				8F0A67D8208A1BB70083A52E /* ViewController.swift */,
+				8F0A67DA208A1BB70083A52E /* Main.storyboard */,
+				8F0A67DD208A1BB80083A52E /* Assets.xcassets */,
+				8F0A67DF208A1BB80083A52E /* LaunchScreen.storyboard */,
+				8F0A67E2208A1BB80083A52E /* Info.plist */,
+			);
+			path = holaios;
+			sourceTree = "<group>";
+		};
+		8F0A67EA208A1BB80083A52E /* holaiosTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F0A67EB208A1BB80083A52E /* holaiosTests.swift */,
+				8F0A67ED208A1BB80083A52E /* Info.plist */,
+			);
+			path = holaiosTests;
+			sourceTree = "<group>";
+		};
+		8F0A67F5208A1BB80083A52E /* holaiosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8F0A67F6208A1BB80083A52E /* holaiosUITests.swift */,
+				8F0A67F8208A1BB80083A52E /* Info.plist */,
+			);
+			path = holaiosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F0A67D2208A1BB70083A52E /* holaios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F0A67FB208A1BB80083A52E /* Build configuration list for PBXNativeTarget "holaios" */;
+			buildPhases = (
+				8F0A67CF208A1BB70083A52E /* Sources */,
+				8F0A67D0208A1BB70083A52E /* Frameworks */,
+				8F0A67D1208A1BB70083A52E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = holaios;
+			productName = holaios;
+			productReference = 8F0A67D3208A1BB70083A52E /* holaios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F0A67E6208A1BB80083A52E /* holaiosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F0A67FE208A1BB80083A52E /* Build configuration list for PBXNativeTarget "holaiosTests" */;
+			buildPhases = (
+				8F0A67E3208A1BB80083A52E /* Sources */,
+				8F0A67E4208A1BB80083A52E /* Frameworks */,
+				8F0A67E5208A1BB80083A52E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F0A67E9208A1BB80083A52E /* PBXTargetDependency */,
+			);
+			name = holaiosTests;
+			productName = holaiosTests;
+			productReference = 8F0A67E7208A1BB80083A52E /* holaiosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8F0A67F1208A1BB80083A52E /* holaiosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F0A6801208A1BB80083A52E /* Build configuration list for PBXNativeTarget "holaiosUITests" */;
+			buildPhases = (
+				8F0A67EE208A1BB80083A52E /* Sources */,
+				8F0A67EF208A1BB80083A52E /* Frameworks */,
+				8F0A67F0208A1BB80083A52E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F0A67F4208A1BB80083A52E /* PBXTargetDependency */,
+			);
+			name = holaiosUITests;
+			productName = holaiosUITests;
+			productReference = 8F0A67F2208A1BB80083A52E /* holaiosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F0A67CB208A1BB70083A52E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Bene;
+				TargetAttributes = {
+					8F0A67D2208A1BB70083A52E = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					8F0A67E6208A1BB80083A52E = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 8F0A67D2208A1BB70083A52E;
+					};
+					8F0A67F1208A1BB80083A52E = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 8F0A67D2208A1BB70083A52E;
+					};
+				};
+			};
+			buildConfigurationList = 8F0A67CE208A1BB70083A52E /* Build configuration list for PBXProject "holaios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F0A67CA208A1BB70083A52E;
+			productRefGroup = 8F0A67D4208A1BB70083A52E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F0A67D2208A1BB70083A52E /* holaios */,
+				8F0A67E6208A1BB80083A52E /* holaiosTests */,
+				8F0A67F1208A1BB80083A52E /* holaiosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F0A67D1208A1BB70083A52E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F0A67E1208A1BB80083A52E /* LaunchScreen.storyboard in Resources */,
+				8F0A67DE208A1BB80083A52E /* Assets.xcassets in Resources */,
+				8F0A67DC208A1BB70083A52E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0A67E5208A1BB80083A52E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0A67F0208A1BB80083A52E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F0A67CF208A1BB70083A52E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F0A67D9208A1BB70083A52E /* ViewController.swift in Sources */,
+				8F0A67D7208A1BB70083A52E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0A67E3208A1BB80083A52E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F0A67EC208A1BB80083A52E /* holaiosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0A67EE208A1BB80083A52E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F0A67F7208A1BB80083A52E /* holaiosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F0A67E9208A1BB80083A52E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F0A67D2208A1BB70083A52E /* holaios */;
+			targetProxy = 8F0A67E8208A1BB80083A52E /* PBXContainerItemProxy */;
+		};
+		8F0A67F4208A1BB80083A52E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F0A67D2208A1BB70083A52E /* holaios */;
+			targetProxy = 8F0A67F3208A1BB80083A52E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F0A67DA208A1BB70083A52E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F0A67DB208A1BB70083A52E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F0A67DF208A1BB80083A52E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F0A67E0208A1BB80083A52E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F0A67F9208A1BB80083A52E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F0A67FA208A1BB80083A52E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F0A67FC208A1BB80083A52E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = holaios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = holabene.holaios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F0A67FD208A1BB80083A52E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = holaios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = holabene.holaios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8F0A67FF208A1BB80083A52E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = holaiosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = holabene.holaiosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/holaios.app/holaios";
+			};
+			name = Debug;
+		};
+		8F0A6800208A1BB80083A52E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = holaiosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = holabene.holaiosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/holaios.app/holaios";
+			};
+			name = Release;
+		};
+		8F0A6802208A1BB80083A52E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = holaiosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = holabene.holaiosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = holaios;
+			};
+			name = Debug;
+		};
+		8F0A6803208A1BB80083A52E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = holaiosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = holabene.holaiosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = holaios;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F0A67CE208A1BB70083A52E /* Build configuration list for PBXProject "holaios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F0A67F9208A1BB80083A52E /* Debug */,
+				8F0A67FA208A1BB80083A52E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F0A67FB208A1BB80083A52E /* Build configuration list for PBXNativeTarget "holaios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F0A67FC208A1BB80083A52E /* Debug */,
+				8F0A67FD208A1BB80083A52E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F0A67FE208A1BB80083A52E /* Build configuration list for PBXNativeTarget "holaiosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F0A67FF208A1BB80083A52E /* Debug */,
+				8F0A6800208A1BB80083A52E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F0A6801208A1BB80083A52E /* Build configuration list for PBXNativeTarget "holaiosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F0A6802208A1BB80083A52E /* Debug */,
+				8F0A6803208A1BB80083A52E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F0A67CB208A1BB70083A52E /* Project object */;
+}
