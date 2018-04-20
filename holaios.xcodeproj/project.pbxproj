@@ -9,9 +9,7 @@
 /* Begin PBXBuildFile section */
 		8F0A67D7208A1BB70083A52E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A67D6208A1BB70083A52E /* AppDelegate.swift */; };
 		8F0A67D9208A1BB70083A52E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A67D8208A1BB70083A52E /* ViewController.swift */; };
-		8F0A67DC208A1BB70083A52E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F0A67DA208A1BB70083A52E /* Main.storyboard */; };
 		8F0A67DE208A1BB80083A52E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F0A67DD208A1BB80083A52E /* Assets.xcassets */; };
-		8F0A67E1208A1BB80083A52E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F0A67DF208A1BB80083A52E /* LaunchScreen.storyboard */; };
 		8F0A67EC208A1BB80083A52E /* holaiosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A67EB208A1BB80083A52E /* holaiosTests.swift */; };
 		8F0A67F7208A1BB80083A52E /* holaiosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A67F6208A1BB80083A52E /* holaiosUITests.swift */; };
 /* End PBXBuildFile section */
@@ -37,9 +35,7 @@
 		8F0A67D3208A1BB70083A52E /* holaios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = holaios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F0A67D6208A1BB70083A52E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F0A67D8208A1BB70083A52E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8F0A67DB208A1BB70083A52E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F0A67DD208A1BB80083A52E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8F0A67E0208A1BB80083A52E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F0A67E2208A1BB80083A52E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F0A67E7208A1BB80083A52E /* holaiosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = holaiosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F0A67EB208A1BB80083A52E /* holaiosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = holaiosTests.swift; sourceTree = "<group>"; };
@@ -99,9 +95,7 @@
 			children = (
 				8F0A67D6208A1BB70083A52E /* AppDelegate.swift */,
 				8F0A67D8208A1BB70083A52E /* ViewController.swift */,
-				8F0A67DA208A1BB70083A52E /* Main.storyboard */,
 				8F0A67DD208A1BB80083A52E /* Assets.xcassets */,
-				8F0A67DF208A1BB80083A52E /* LaunchScreen.storyboard */,
 				8F0A67E2208A1BB80083A52E /* Info.plist */,
 			);
 			path = holaios;
@@ -229,9 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F0A67E1208A1BB80083A52E /* LaunchScreen.storyboard in Resources */,
 				8F0A67DE208A1BB80083A52E /* Assets.xcassets in Resources */,
-				8F0A67DC208A1BB70083A52E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,25 +283,6 @@
 			targetProxy = 8F0A67F3208A1BB80083A52E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		8F0A67DA208A1BB70083A52E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8F0A67DB208A1BB70083A52E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8F0A67DF208A1BB80083A52E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8F0A67E0208A1BB80083A52E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8F0A67F9208A1BB80083A52E /* Debug */ = {
