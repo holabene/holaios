@@ -12,6 +12,8 @@
 		8F0A67DE208A1BB80083A52E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F0A67DD208A1BB80083A52E /* Assets.xcassets */; };
 		8F0A67EC208A1BB80083A52E /* holaiosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A67EB208A1BB80083A52E /* holaiosTests.swift */; };
 		8F0A67F7208A1BB80083A52E /* holaiosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A67F6208A1BB80083A52E /* holaiosUITests.swift */; };
+		8F0A6806208A366F0083A52E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A6804208A366F0083A52E /* HomeViewController.swift */; };
+		8F0A6807208A366F0083A52E /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F0A6805208A366F0083A52E /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,8 @@
 		8F0A67F2208A1BB80083A52E /* holaiosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = holaiosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F0A67F6208A1BB80083A52E /* holaiosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = holaiosUITests.swift; sourceTree = "<group>"; };
 		8F0A67F8208A1BB80083A52E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F0A6804208A366F0083A52E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8F0A6805208A366F0083A52E /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 				8F0A67D8208A1BB70083A52E /* ViewController.swift */,
 				8F0A67DD208A1BB80083A52E /* Assets.xcassets */,
 				8F0A67E2208A1BB80083A52E /* Info.plist */,
+				8F0A6804208A366F0083A52E /* HomeViewController.swift */,
+				8F0A6805208A366F0083A52E /* HomeViewController.xib */,
 			);
 			path = holaios;
 			sourceTree = "<group>";
@@ -224,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F0A67DE208A1BB80083A52E /* Assets.xcassets in Resources */,
+				8F0A6807208A366F0083A52E /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +257,7 @@
 			files = (
 				8F0A67D9208A1BB70083A52E /* ViewController.swift in Sources */,
 				8F0A67D7208A1BB70083A52E /* AppDelegate.swift in Sources */,
+				8F0A6806208A366F0083A52E /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
